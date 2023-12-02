@@ -1,10 +1,9 @@
-function showOrHide(index) {
-  const x = document.getElementById("content-1");
-  console.log(x);
-  const y = x.getElementsByTagName("p");
-  if (y[index].style.display === "none") {
-    y[index].style.display = "block";
+function showOrHide() {
+  const x = document.getElementById("description");
+  const y = document.getElementById("text1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } else {
-    y[index].style.display = "none";
+    x.style.display = "none";
   }
 }

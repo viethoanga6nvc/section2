@@ -6,63 +6,106 @@
 
 body {
   background: #fff9f5;
-  color     : #462b20;
+  width     : 1920px;
+  height    : 1260px;
 }
 
 h1 {
-  margin-top : 40px;
-  text-align : center;
-  font-weight: normal;
+  width         : 273px;
+  height        : 61px;
+  line-height   : 61px;
+  font-size     : 58px;
+  position      : absolute;
+  top           : 66px;
+  left          : 824px;
+  text-align    : center;
+  letter-spacing: -1px;
+  font-weight   : 400;
+  color         : #462b20;
+  font-family   : 'Instrument Serif', serif;
 }
 
-.main {
-  display     : flex;
-  gap         : 80px;
-  padding-left: 12.6%;
-  padding-top : 20px;
+.content-1 {
+  width   : 560px;
+  height  : 691px;
+  position: absolute;
+  top     : 257px;
+  left    : 242px;
+  display : grid;
+  gap     : 24px;
 
-  #content-1 {
-    padding-top: 30px;
-    width      : 42%;
+  img {
+    width : 560px;
+    height: 315px;
+  }
 
-    img {
-      width: 100%;
-    }
+  .main {
+    width  : 560px;
+    height : 352px;
+    display: grid;
+    gap    : 24px;
+  }
 
-    hr {
-      width     : 100%;
-      height    : 1px;
-      border    : none;
-      background: #ecedec;
-      margin    : 12px 0;
-    }
+  hr {
+    width     : 100%;
+    height    : 0.2px;
+    border    : none;
+    background: #F3EAE5;
+  }
 
-    .title {
-      display        : flex;
-      justify-content: space-between;
-      margin-bottom  : 12px;
+  #text1 {
+    // height : 154px;
+    // display: grid;
+    // gap    : 16px;
 
-      h3 {
-        font-weight: normal;
-      }
-
-      span {
-        width : 10px;
-        height: 100%;
-      }
+    &-sub {
+      height: 46px;
     }
 
     p {
-      font-family: Arial, sans-serif;
-      display: block;
+      margin-top : 16px;
+      width      : 499px;
+      height     : 92px;
+      font-family: 'Inter', sans-serif;
+      font-size  : 15px;
+      line-height: 23px;
+      display    : block;
+      color      : #42291FD9;
     }
   }
 
-  .content-2 {
-    width: 37%;
+  #text2 {
+    height: 174px;
+  }
 
-    img {
-      width: 100%;
+  .title {
+    margin         : 18px 0;
+    display        : flex;
+    justify-content: space-between;
+    height         : 28px;
+    font-family    : 'Instrument Serif', serif;
+
+    h3 {
+      font-weight: 400;
+      font-size  : 26px;
+      line-height: 28px;
+      color      : #462B20;
+
+    }
+
+    span {
+      width    : 24px;
+      height   : 24px;
+      color    : #693521;
+      font-size: 18px;
     }
   }
+}
+
+.content-2 {
+  width   : 706px;
+  height  : 991px;
+  position: absolute;
+  top     : 203px;
+  left    : 919px;
 }
